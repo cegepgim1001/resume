@@ -3,8 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>😬 Personal Site</title>
+	<!--External CSS-->
+	<link rel="stylesheet" href="css\styles.css">
+	<!--Internal CSS-->
+	<style>
+		body {
+			background-color: powderblue;
+		}
+	</style>
   </head>
-  <body style="background-color: yellow;">
+
+  <body>
 	<table cellspacing="20">
 		<tr>
 			<td><img src="user.png" alt="User's Image"></td>
@@ -14,7 +23,6 @@
 			</td>
 		</tr>
 	</table>
-	<br>
 	<hr>
     <h3>Education :</h3>
 		<ul>
@@ -30,14 +38,12 @@
 	<table border="1"> <!-- everything in between the tag -
 						the content of the actual table.
 						no style applied by the browser, by default -->
-		<!-- This section - 2.1. -->
 		<thead>
 			<tr>
 				<th>Dates</th>
 				<th>Work</th>
 			</tr>
 		</thead>
-		<!-- This section - 2.2. -->
 		<tbody>
 			<tr>
 				<td>2010-2013</td>
@@ -52,23 +58,25 @@
 
 		</tfoot>
 	</table>
-	<br>
 	<h3>
-	<a href="others.html">Skills :</a>
+	<a href="others.txt">Skills :</a>
 	</h3>
 	<table>
 		<tbody>
 			<tr>
 				<td>Infrastructure Specialist</td>
-				<td>⭐⭐⭐⭐⭐</td>
+				<!--Inline CSS-->
+				<td style="color: orange;font-size: 20px;">★★★★★</td>
 			</tr>
 			<tr>
 				<td>Web- Development Development</td>
-				<td>⭐⭐⭐</td
+				<!--Inline CSS-->
+				<td style="color: orange;font-size: 20px;">★★★</td
 			</tr>
 			<tr>
 				<td>Mobile Development Development</td>
-				<td>⭐</td
+				<!--Inline CSS-->
+				<td style="color: orange;font-size: 20px;">★</td
 			</tr>
 		</tbody>
 	</table>
